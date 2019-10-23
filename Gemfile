@@ -1,17 +1,17 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "sinatra"
 gem "activerecord", '<= 5.1'
-gem "sinatra-activerecord"
-gem "rake"
 gem "bcrypt"
-gem "rspec"
-gem "require_all"
 gem "capybara"
 gem "pry"
-gem 'sqlite3', '~> 1.3.6'
+gem "rake"
+gem "require_all"
+gem "rspec"
 gem 'shotgun'
+gem "sinatra"
+gem "sinatra-activerecord"
+gem 'sqlite3', '~> 1.3.6'
 
 group :development do
   gem "tux"
