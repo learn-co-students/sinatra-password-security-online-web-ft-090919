@@ -9,11 +9,10 @@ gem "bcrypt"
 gem "rspec"
 gem "require_all"
 gem "capybara"
-gem "pry"
+gem "pry-moves"
 gem 'sqlite3', '~> 1.3.6'
 gem 'shotgun'
 
 group :development do
   gem "tux"
 end
-
