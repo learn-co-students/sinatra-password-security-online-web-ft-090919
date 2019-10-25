@@ -152,14 +152,8 @@ Next, we need to check two conditions: first, did we find a user with that
 username? This can be written as `user != nil` or simply `user`.
 
 ```ruby
-post "/login" do
-  user = User.find_by(:username => params[:username])
-  if user
-    redirect "/success"
-  else
-    redirect "/failure"
-  end
-end
+
+
 ```
 
 We also need to check if that user's password matches up with the value in
